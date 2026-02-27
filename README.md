@@ -82,7 +82,7 @@
 ## ⚡ Arsenal — Featured Projects
 
 ```
-[*] Scanning target repositories... 6 found
+[*] Scanning target repositories... 8 found
 [+] Loading payloads...
 ```
 
@@ -150,6 +150,47 @@ python generate_policy.py --all
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Security](https://img.shields.io/badge/Security_Scan-FF6B35?style=flat-square&logo=sonarqube&logoColor=white)
+
+### 🚀 [devsecops-pipeline-template](https://github.com/yash2121ja/devsecops-pipeline-template)
+> `[DEVSECOPS]` Production-ready GitHub Actions pipeline — drop into any repo for instant security scanning
+
+- **6-stage pipeline**: Secret scanning (Gitleaks), SAST (Semgrep OWASP Top 10), SCA (Trivy), Container scan, IaC scan, Security summary
+- SARIF output uploaded to GitHub Security tab on every run
+- Full config for Semgrep custom rules, Trivy severity thresholds, Gitleaks allowlists
+- Python CLI `parse_results.py` for colored severity tables and CI exit-code control
+
+```bash
+# Drop into your repo — security scanning runs on every push
+cp -r devsecops-pipeline-template/.github/workflows/ .github/workflows/
+cp -r devsecops-pipeline-template/configs/ configs/
+```
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![Semgrep](https://img.shields.io/badge/Semgrep-FF6B35?style=flat-square&logo=semgrep&logoColor=white)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-8B0000?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+### 📊 [vulnerability-dashboard](https://github.com/yash2121ja/vulnerability-dashboard)
+> `[BLUE TEAM]` Convert Trivy JSON scan output into an interactive HTML report with severity charts — zero dependencies
+
+- Parses Trivy JSON from filesystem, container image, or Kubernetes scans
+- Interactive severity bar charts (Chart.js), filterable CVE table, misconfiguration table
+- Auto-computed risk rating (CRITICAL / HIGH / MEDIUM / LOW) from scan results
+- Dark-theme dashboard, single self-contained HTML file output
+- Zero pip dependencies — pure Python stdlib + CDN Chart.js
+
+```bash
+# Scan a container and generate dashboard in one command
+trivy image nginx:latest --format json --output trivy.json
+python dashboard.py --input trivy.json --open
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![ChartJS](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Zero Deps](https://img.shields.io/badge/Dependencies-Zero-22c55e?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
 
