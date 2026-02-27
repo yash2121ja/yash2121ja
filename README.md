@@ -1,29 +1,42 @@
 <div align="center">
 
-# Hey, I'm Yash 👋
+```
+██╗   ██╗ █████╗ ███████╗██╗  ██╗
+╚██╗ ██╔╝██╔══██╗██╔════╝██║  ██║
+ ╚████╔╝ ███████║███████╗███████║
+  ╚██╔╝  ██╔══██║╚════██║██╔══██║
+   ██║   ██║  ██║███████║██║  ██║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+```
 
-### DevOps Engineer · Information Security Specialist · Compliance Automation
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=DevOps+%26+Security+Engineer;ISO+27001+%7C+SOC+2+Specialist;Red+Team+%7C+OSINT+%7C+Recon;Compliance+Automation+%7C+DevSecOps;%24+whoami+%3D+hacker+%7C+builder+%7C+defender)](https://github.com/yash2121ja)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash2121ja)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yash2121ja)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yash2121ja@gmail.com)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/-%20yash--hack-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-hack/)
+[![GitHub](https://img.shields.io/badge/-yash2121ja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yash2121ja)
+[![Email](https://img.shields.io/badge/-Yash21ja@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Yash21ja@gmail.com)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## 💀 About Me
 
-```yaml
-name       : Yash
-role       : DevOps & Security Engineer
-focus      :
-  - Cloud Infrastructure & CI/CD Automation
-  - Information Security (ISO 27001 · SOC 2 · ISMS)
-  - Policy & Compliance Automation
-  - DevSecOps — shifting security left in the SDLC
-currently  : Building AI-powered compliance tooling
-open_to    : Collaborations on DevSecOps & Security Automation projects
+```bash
+┌──(yash㉿kali)-[~]
+└─$ cat about.txt
+
+> Name    : Yash
+> Role    : DevOps & Security Engineer
+> Focus   : Cloud Infrastructure · CI/CD · ISO 27001 · SOC 2
+>           OSINT · Recon · DevSecOps · Compliance Automation
+> Status  : Building AI-powered compliance tooling
+> Motto   : "Know the system. Break the assumptions. Secure everything."
+> OpenTo  : DevSecOps collabs · Security automation · Red team tooling
+
+┌──(yash㉿kali)-[~]
+└─$ █
 ```
 
 ---
@@ -66,10 +79,15 @@ open_to    : Collaborations on DevSecOps & Security Automation projects
 
 ---
 
-## 🚀 Featured Projects
+## ⚡ Arsenal — Featured Projects
+
+```
+[*] Scanning target repositories... 6 found
+[+] Loading payloads...
+```
 
 ### 🔐 [isms-soc2-policy-templates](https://github.com/yash2121ja/isms-soc2-policy-templates)
-> AI-powered ISO 27001 & SOC 2 compliance policy framework
+> `[COMPLIANCE]` AI-powered ISO 27001 & SOC 2 policy framework — 27 policies, GROQ AI generation, auto-export to Word/PDF
 
 - 27 policy templates covering full ISMS documentation
 - GROQ AI integration for policy generation & editing via plain-English prompts
@@ -94,6 +112,45 @@ python generate_policy.py --all
 ![SOC2](https://img.shields.io/badge/SOC_2-2C6EAD?style=flat-square)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
+### 🔍 [Port-Scanner](https://github.com/yash2121ja/Port-Scanner)
+> `[RECON]` Python-based network recon tool for bulk IP / subnet scanning
+
+- Scans lists of IPs and CIDR subnets for open ports 80 & 443
+- Reverse DNS lookup — maps IPs back to domain names automatically
+- CSV-friendly output for reporting and triage workflows
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-00599C?style=flat-square&logo=cisco&logoColor=white)
+![Recon](https://img.shields.io/badge/Recon-FF6B35?style=flat-square)
+
+### 🌐 [subdomain-enum](https://github.com/yash2121ja/subdomain-enum)
+> `[OSINT]` Automated subdomain enumeration via SecurityTrails API
+
+- Discovers all subdomains of a target domain using SecurityTrails
+- Useful for attack surface mapping and external asset inventory
+- Clean output for piping into further recon tooling
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OSINT](https://img.shields.io/badge/OSINT-8B0000?style=flat-square)
+![Recon](https://img.shields.io/badge/Recon-FF6B35?style=flat-square)
+
+### 📜 [CRT.SH-Data-Retrieval-Tool](https://github.com/yash2121ja/CRT.SH-Data-Retrieval-Tool)
+> `[OSINT]` Certificate Transparency log harvester using crt.sh
+
+- Queries crt.sh for SSL/TLS certificate records by domain or org
+- Exports results to Excel (.xlsx) for analysis and reporting
+- Useful for discovering shadow IT, expired certs, and org exposure
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![CertTransparency](https://img.shields.io/badge/Cert_Transparency-005B9A?style=flat-square)
+![Excel](https://img.shields.io/badge/Excel_Export-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+### 🛡️ [Security-scan](https://github.com/yash2121ja/Security-scan)
+> `[BLUE TEAM]` TypeScript-based automated security scanning toolkit
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Security](https://img.shields.io/badge/Security_Scan-FF6B35?style=flat-square&logo=sonarqube&logoColor=white)
+
 ---
 
 ## 🎯 Core Competencies
@@ -115,38 +172,41 @@ python generate_policy.py --all
 
 ---
 
-## 📊 GitHub Stats
+## 🔴 Security Philosophy
+
+```
+[*] Initializing threat model...
+[+] Loading attack surface...
+[!] Rules of engagement:
+```
+
+> *"Know the system. Break the assumptions. Secure everything."*
+
+- **`[SHIFT LEFT]`** — Security baked into every stage of the pipeline, not bolted on at the end
+- **`[COMPLIANCE AS CODE]`** — Policy frameworks automated, version-controlled, AI-generated
+- **`[ZERO TRUST]`** — Never trust, always verify, continuously validate
+- **`[DEFENSE IN DEPTH]`** — Layers of controls across people, process, and technology
+- **`[OSINT FIRST]`** — Know your attack surface before the attacker does
+
+---
+
+## � Contribution Graph
 
 <div align="center">
 
-![Yash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yash2121ja&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yash2121ja&layout=compact&theme=dark&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=yash2121ja&theme=dark&hide_border=true)
+![Snake animation](https://raw.githubusercontent.com/yash2121ja/yash2121ja/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
 ---
 
-## 🔐 Security Philosophy
-
-> *"Security is not a product, it's a process — and DevOps is the engine that makes it continuous."*
-
-- **Shift Left** — Security baked into every stage of the pipeline, not bolted on at the end
-- **Compliance as Code** — Policy and compliance frameworks automated and version-controlled
-- **Zero Trust** — Never trust, always verify, continuously validate
-- **Defense in Depth** — Layers of controls across people, process, and technology
-
----
-
-## 📬 Let's Connect
+## �📬 Let's Connect
 
 I'm always open to discussing **DevSecOps**, **cloud security architecture**, **ISO 27001 / SOC 2 implementation**, or interesting open-source collaboration.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash2121ja)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-hack/)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yash2121ja)
 
 </div>
@@ -155,8 +215,12 @@ I'm always open to discussing **DevSecOps**, **cloud security architecture**, **
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=yash2121ja&color=0e75b6&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=yash2121ja&color=00FF41&style=flat-square&label=VISITORS)
 
-*Built with ❤️ — DevOps · Security · Automation*
+```
+[+] Session established.
+[+] Stay curious. Stay ethical. Keep hacking.
+[*] EOF
+```
 
 </div>
